@@ -3,3 +3,8 @@
 /benchmark/build
 /benchmark/src
 /test/addon_build/addons
+
+# externpro
+.env
+_bld*/
+docker-compose.override.yml
