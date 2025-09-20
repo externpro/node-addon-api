@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 3.31)
-set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_LIST_DIR}/.devcontainer/cmake)
-include(preproject)
-project(node-addon-api VERSION 3.0.2.2)
-include(flags)
+set(CMAKE_PROJECT_TOP_LEVEL_INCLUDES .devcontainer/cmake/xproinc.cmake)
+project(node-addon-api VERSION 3.0.2)
+include(xpflags)
 include(GNUInstallDirs)
 set(XP_INSTALL_CMAKEDIR ${CMAKE_INSTALL_DATADIR}/cmake) # xpPackageDevel
 set(XP_NAMESPACE xpro)
