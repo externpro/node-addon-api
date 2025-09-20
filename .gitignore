@@ -6,6 +6,11 @@
 /test/require_basic_finalizers/addons
 /.vscode
 
+# externpro
+.env
+_bld*/
+docker-compose.override.yml
+
 # ignore node-gyp generated files outside its build directory
 /test/*.Makefile
 /test/*.mk

@@ -1,6 +1,6 @@
 name: Node.js CI with node-api-headers
 
-on: [push, pull_request]
+on: [workflow_dispatch]
 
 env:
   PYTHON_VERSION: '3.11'
