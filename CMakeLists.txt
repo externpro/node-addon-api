@@ -12,7 +12,6 @@ if(DEFINED XP_NAMESPACE)
     DESC "Module for using N-API from C++"
     LICENSE "[MIT](https://github.com/nodejs/node-addon-api/blob/v8.5.0/LICENSE.md 'MIT License')"
     )
-  set(CMAKE_INSTALL_CMAKEDIR ${XP_INSTALL_CMAKEDIR})
   set(nameSpace NAMESPACE ${XP_NAMESPACE}::)
 elseif(NOT DEFINED CMAKE_INSTALL_CMAKEDIR)
   set(CMAKE_INSTALL_CMAKEDIR ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME})
